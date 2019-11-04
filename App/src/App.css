@@ -1,0 +1,200 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif !important;
+  color: black;
+}
+
+.MainHeader {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 2% 1% 2%;
+}
+
+.MainHeader figure {
+  display: flex;
+  margin: 0;
+  width: 200px;
+  cursor: pointer;
+}
+
+.MainHeader figure img {
+  width: 100%;
+}
+
+.SearchBar {
+  display: flex;
+  width: 86%;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar input {
+  width: 80%;
+  height: 100%;
+  background-color: #F2F2F2;
+  border: none;
+  padding: 0px 20px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.MainSection {
+  display: flex;
+  flex-direction: row;
+  margin: 1% 2%;
+}
+
+.LeftPanel {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.CatSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.CatSection > p {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 0 11px 0;
+  margin-top: 20px;
+}
+
+.Categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.Btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  color: #000;
+  cursor: pointer;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.Btn:hover {
+  opacity: .7;
+}
+
+.Activated {
+  background-color: black;
+  color: #fff;
+}
+
+.Btn > p {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 0 15px;
+}
+
+.Btn > figure {
+  display: flex;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.Btn > figure > img {
+  width: 100%;
+}
+
+.MarginTop15 {
+  margin-top: 15px;
+}
+
+.RightPanel {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  align-items: center;
+  padding: 0% 2% 0 2%;
+}
+
+.ProductsGrid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Product {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  cursor: pointer;
+  opacity: .8;
+  position: relative;
+}
+
+.Product:hover {
+  opacity: 1;
+}
+
+.Product > figure {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Product > figure > img {
+  width: 100%;
+}
+
+.ProductInfo {
+  display: flex;
+  flex-direction: row;
+  background-color: #F3F3F3;
+  padding: 0px 10px;
+  height: 80px;
+  align-items: center;
+}
+
+.ProductInfo > p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.PriceTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 85px;
+  height: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.PriceTag p {
+  margin: 0;
+}
+
+.NotAvailable {
+  display: flex;
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  top: 40%;
+  margin: 0;
+  background-color: #000;
+  color: white;
+  padding: 0px 20px;
+  font-weight: 700;
+}

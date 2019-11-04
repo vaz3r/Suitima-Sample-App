@@ -1,0 +1,138 @@
+.AddUpdate {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: fixed;
+    background-color: #212121d4;
+    justify-content: center;
+    align-self: center;
+    top: 12%;
+    padding: 2%;
+    color: white;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form img {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 5px;
+    /* left: 1px; */
+    top: 5px;
+    cursor: pointer;
+}
+
+.Form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Form > div > input {
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    padding: 0px 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.Form > div > select {
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    padding: 0px 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.BtnSimple {
+    display: flex;
+    background-color: #ffffff;
+    color: black;
+    /* padding: 0px 15px; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.BtnDelete {
+    background-color: #F44336;
+    color: white;
+    margin-top: 15px;
+}
+
+.BtnSimple:hover {
+    opacity: .7;
+}
+
+.Form h2 {
+    margin: 0 0 25px 0;
+}
+
+.Availabilty {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.Availabilty > input {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.DeleteBox {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #000000eb;
+    height: 24%;
+    /* width: 30%; */
+    padding: 1% 2%;
+    top: 40%;
+    left: 35.3%;
+    /* right: 0px; */
+    /* border-radius: 5px; */
+    text-align: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.DeleteBox p {
+    margin: 0;
+}
+
+.DeleteBox p p {
+    margin-top: 10px;
+}
+
+.BtnDialog {
+    display: flex;
+    background-color: #ffffff;
+    color: black;
+    /* padding: 0px 15px; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 50px;
+    width: 50%;
+}
+
+.BtnDialog:hover {
+    opacity: .8;
+}
